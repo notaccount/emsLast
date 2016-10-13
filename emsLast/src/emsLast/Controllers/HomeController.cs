@@ -16,7 +16,7 @@ namespace emsLast.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
+            string a = "";
             return View();
         }
 
